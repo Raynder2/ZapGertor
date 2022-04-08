@@ -99,7 +99,6 @@
 
 
 body{
-    background-color: #130f0d;
     color: white;
 }
 
@@ -109,7 +108,7 @@ body{
 }
 
 .board{
-    background: #141316;
+    background: #e7e7e7;
     border: 1px solid #FD951F11;
     border-radius: 4px;
     margin: 0 10px;
@@ -210,7 +209,7 @@ body{
         font-weight: 900;
         height: 90vh;
         width: 30%;
-        top: 5vh;
+        top: 7vh;
         right: 0;
     }
 
