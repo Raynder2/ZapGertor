@@ -1,0 +1,325 @@
+/* Estilos do painel do site */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+}
+
+header {
+    height: 55px;
+    background-color: #1d1552;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nome-empresa {
+    font-size: 1rem;
+    white-space: nowrap;
+    color: #fff;
+    height: 100%;
+    position: relative;
+}
+
+.nome-empresa>span {
+    position: relative;
+    top: 30%;
+}
+
+.menu-header {
+    height: 100%;
+    display: flex;
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.menu-lateral {
+    background: #fff;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-top: 55px;
+    box-shadow: 1px 0 9px rgb(0 0 0 / 10%);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-lateral>nav>ul>a>li>img {
+    width: 50%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin: 10px 0;
+    box-shadow: 1px 0 9px rgb(0 0 0 / 10%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu-lateral>nav>ul>a>li>img:hover {
+    box-shadow: 1px 0 9px #6177a9;
+}
+
+.conteudo-central {
+    border-radius: 10px;
+    height: 90vh;
+    width: 90%;
+    background: #fff;
+    left: 120px;
+    top: 72px;
+    position: relative;
+}
+
+.demais-informacoes {
+    width: 100%;
+}
+
+.usuario-logado {
+    float: right;
+    height: 100%;
+}
+
+.usuario-logado>a {
+    position: relative;
+    top: 30%;
+    margin-right: 20px;
+    color: white !important;
+}
+
+/* Fim do Estilo */
+
+/* Estilo Formação de Preço */
+.table-responsive {
+    BORDER: NONE;
+    margin: 5px;
+}
+
+h5.coluna-titulo {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background: #010351;
+}
+
+p.coluna-titulo {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #2125FD;
+    color: white;
+}
+
+.colunas-pai>.campos>select {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.caixa-campo-texto {
+    border-bottom: solid 1px;
+    height: 45px;
+    position: relative;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+.colunas-pai>.campos>.caixa-campo-texto>input {
+    padding: 0;
+    text-align: right;
+    border: none;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.colunas-pai>.campos>.caixa-campo-texto>label {
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.colunas-pai {
+    border: solid 1px;
+    border-radius: 5px;
+    float: left;
+}
+
+.funcoes {
+    font-size: 8pt;
+    background: #e1651b;
+    border: none;
+    margin: 5px auto;
+    color: white;
+    height: 38px;
+    width: 32.4%;
+    text-align: center;
+}
+
+.painelVariantes {
+    background: white;
+    width: 25%;
+    display: block;
+    position: fixed;
+    height: 86%;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    border: solid 1px;
+    transition: .5s;
+}
+
+.abrir {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 25%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    left: -14%;
+}
+
+.abrir>img {
+    width: 100%;
+    transition: 1s;
+    transform: rotate(0deg);
+}
+
+.left75 {
+    left: 75%;
+}
+
+.left100 {
+    left: 100%;
+}
+
+/* Estilo segundo */
+
+.table-responsive {
+    margin: 6px;
+}
+
+.colunas-pai {
+    border: none;
+}
+
+/* Fim do estilo segundo */
+
+/* Fim do estilo */
+
+/* Estilo das regras */
+.etapa1>.campos>select,
+.etapa1>.campos>input {
+    padding: 20px;
+    margin: 15px 0;
+    width: 100%;
+    font-size: 16pt;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: solid 1px #467aef;
+}
+
+/* Fim do estilo das regras */
+
+/* Estilo de configuração do painel */
+
+nav.opcoes-edicao ul {
+    background: #f5f7fa;
+    display: flex;
+    list-style: none;
+}
+
+.opcoes-edicao>ul>li {
+    padding: 10px 20px;
+    font-size: 16pt;
+}
+
+.opcoes-edicao>ul>li.ativo {
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: solid 1px #1d1552;
+    border-bottom: none;
+}
+
+.tabela {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 20px;
+}
+
+.tabela>table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13pt;
+}
+
+.caixa-de-pesquisa {
+    /* max-width: 400px; */
+    padding: 20px;
+    height: 30px;
+}
+
+/* Paginação */
+.divPagination {
+    position: relative;
+}
+
+ul.pagination {
+    position: absolute;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul.pagination li a.active {
+    background-color: #1d1552;
+    color: white;
+    border-radius: 5px;
+}
+
+ul.pagination li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.caixa-de-pesquisa > button {
+    padding: 10px;
+    position: relative;
+    float: right;
+    background: #1d1552;;
+    color: white;
+}
+.caixa-de-pesquisa > input{
+    font-size: 13pt;
+}
+
+/* Fim do estilo de configuração do painel */
